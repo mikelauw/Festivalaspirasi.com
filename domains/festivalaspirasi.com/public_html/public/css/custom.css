@@ -1,0 +1,52 @@
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px grey; 
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+}
+.hide {
+    display: none;
+}
+.tajuk{
+    padding-right: 10px;
+    height: 400px;
+    overflow-y: scroll;
+}
+h3{
+    font-size: 50px  !important;
+}
+h4{
+    font-size: 20px  !important;
+    color: white;
+}
+
+.back_arrow {
+    float: left;
+}
+.back_arrow .fa{
+    color: yellow !important;
+    font-size: 26px;
+    margin-right: 10px;
+}
+.back_arrow a{
+    color: yellow !important;
+    font-size: 18px;
+    position: absolute;
+    
+}
