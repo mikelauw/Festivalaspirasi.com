@@ -14,5 +14,26 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+Route::get('/{category}/list', function () {
+    return view('category');
+});
+Route::get('/{category}/{kode}/{tema}/question', function () {
+    return view('survey');
+});
+
+
+
+/*
+|--------------------------------------------------------------------------
+| Admin Routes
+|--------------------------------------------------------------------------
+*/
+
+Route::get('/admin', function () {
+    return view('admin/index');
+});
+Route::get('/admin/category', function () {
+    return view('admin/index');
 });
